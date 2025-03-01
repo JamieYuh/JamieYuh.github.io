@@ -9,7 +9,7 @@ title: Welcome to My Website
 - 📌 學習記錄
 - 📚 作業筆記
 
-👉 [About](about)
+👉 [About](about) |
 
 ---
 
