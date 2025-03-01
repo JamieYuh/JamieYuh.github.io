@@ -9,4 +9,11 @@ title: Welcome to My Website
 - 📌 學習記錄
 - 📚 作業筆記
 
-👉 [關於我](about) | [部落格文章](_posts)
+👉 [About](about)
+
+---
+
+## 📝 Posts
+{% for post in site.posts %}
+- 📅 **{{ post.date | date: "%Y-%m-%d" }}** - [{{ post.title }}]({{ post.url }})
+{% endfor %}
